@@ -1,2 +1,2 @@
-# hello-design-pattern
-A begin to learn design pattern.
+# 1.工厂模式
+
