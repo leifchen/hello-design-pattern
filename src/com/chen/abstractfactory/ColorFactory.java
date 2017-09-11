@@ -8,7 +8,7 @@ package com.chen.abstractfactory;
 public class ColorFactory extends AbstractFactory {
 
     @Override
-    public Color getColor(String colorType) {
+    Color getColor(String colorType) {
         Color color = null;
         switch (colorType.toUpperCase()) {
             case ColorConstant.COLOR_RED:

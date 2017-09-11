@@ -1,7 +1,7 @@
 package com.chen.abstractfactory;
 
 /**
- * Description: 抽象工厂模式
+ * Description: 抽象工厂模式 抽象工厂类
  * Author: LeifChen
  * Date: 2017-09-11
  */
