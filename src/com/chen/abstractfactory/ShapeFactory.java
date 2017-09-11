@@ -13,7 +13,7 @@ public class ShapeFactory extends AbstractFactory {
     }
 
     @Override
-    public Shape getShape(String shapeType) {
+    Shape getShape(String shapeType) {
         Shape shape = null;
         switch (shapeType.toUpperCase()) {
             case ShapeConstant.SHAPE_CIRCLE:
