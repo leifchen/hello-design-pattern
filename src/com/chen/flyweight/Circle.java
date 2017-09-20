@@ -1,4 +1,4 @@
-package com.chen.Flyweight;
+package com.chen.flyweight;
 
 /**
  * 圆形 实现Shape接口

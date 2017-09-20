@@ -1,4 +1,4 @@
-package com.chen.Flyweight;
+package com.chen.flyweight;
 
 /**
  * 享元模式：测试类
