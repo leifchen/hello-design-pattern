@@ -61,3 +61,8 @@
 # 13.代理模式（Proxy Pattern）
 
 创建具有现有对象的对象，以便向外界提供功能接口。
+
+
+# 14.责任链模式（Chain of Responsibility Pattern）
+
+为请求创建了一个接收者对象的链。
