@@ -1,3 +1,7 @@
-/.idea/
-/out/
-/hello-design-pattern.iml
+### GRADLE ###
+.gradle/
+
+### IDEA ###
+.idea/
+out/
+*.iml
