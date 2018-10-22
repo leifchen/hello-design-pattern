@@ -17,6 +17,9 @@ dependencies {
     // JDBC
     compile 'mysql:mysql-connector-java:5.1.6'
 
+    // Mybatis
+    compile 'org.mybatis:mybatis:3.4.1'
+
     // Guava
     compile 'com.google.guava:guava:20.0'
     
