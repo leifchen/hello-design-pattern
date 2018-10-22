@@ -9,10 +9,30 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
     mavenCentral()
 }
 
 dependencies {
+    // JDBC
+    compile 'mysql:mysql-connector-java:5.1.6'
+
+    // Guava
+    compile 'com.google.guava:guava:20.0'
+    
+    // Commons Util
+    compile 'org.apache.commons:commons-lang3:3.5'
+    compile 'commons-collections:commons-collections:3.2.1'
+
+    // Logback
+    compile 'ch.qos.logback:logback-classic:1.1.2'
+    compile 'ch.qos.logback:logback-core:1.1.2'
+    
+    // Lombok
     compileOnly 'org.projectlombok:lombok:1.18.2'
+
+    // JUnit
     testCompile 'junit:junit:4.12'
 }
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
