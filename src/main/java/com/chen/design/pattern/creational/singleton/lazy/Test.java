@@ -21,5 +21,7 @@ public class Test {
 
         singleThreadPool.execute(new Task());
         singleThreadPool.execute(new Task());
+
+        singleThreadPool.shutdown();
     }
 }
