@@ -17,6 +17,13 @@ dependencies {
     // JDBC
     compile 'mysql:mysql-connector-java:5.1.6'
 
+    // Spring
+    compile 'org.springframework:spring-core:5.1.1.RELEASE'
+    compile 'org.springframework:spring-beans:5.1.1.RELEASE'
+    compile 'org.springframework:spring-context:5.1.1.RELEASE'
+    compile 'org.springframework:spring-web:5.1.1.RELEASE'
+    compile 'org.springframework:spring-tx:5.1.1.RELEASE'
+
     // Mybatis
     compile 'org.mybatis:mybatis:3.4.1'
 
