@@ -1,0 +1,22 @@
+package com.chen.design.pattern.behavioral.command;
+
+/**
+ * 测试类
+ *
+ * @Author LeifChen
+ * @Date 2018-11-19
+ */
+public class Test {
+
+    public static void main(String[] args) {
+        CourseVideo courseVideo = new CourseVideo("《Java设计模式》");
+        OpenCourseVideoCommand openCourseVideoCommand = new OpenCourseVideoCommand(courseVideo);
+        CloseCourseVideoCommand closeCourseVideoCommand = new CloseCourseVideoCommand(courseVideo);
+
+        Staff staff = new Staff();
+        staff.addCommand(openCourseVideoCommand);
+        staff.addCommand(closeCourseVideoCommand);
+
+        staff.executeCommands();
+    }
+}
